@@ -3,7 +3,7 @@ name: Deploy Documentation to GitHub Pages
 on:
   push:
     branches:
-      - main  # Change 'main' to 'master' if you're using 'master' as the default branch
+      - master  # Change 'main' to 'master' if you're using 'master' as the default branch
 
 jobs:
   deploy:
