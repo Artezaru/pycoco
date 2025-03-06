@@ -11,4 +11,4 @@ def tests():
     str
         A string with the version number
     """
-    return "version 1.0.1"
+    return "version 1.0.2"
