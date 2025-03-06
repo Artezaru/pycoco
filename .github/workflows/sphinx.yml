@@ -5,6 +5,11 @@ on:
     branches:
       - master  # Change 'main' to 'master' if you're using 'master' as the default branch
 
+permissions:
+  contents: write   # Permet de pousser les modifications sur le dépôt
+  pages: write      # Permet de déployer sur GitHub Pages
+  id-token: write   # Nécessaire pour l'authentification via GitHub Actions
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
