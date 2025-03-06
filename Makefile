@@ -22,4 +22,3 @@ latexpdf:
 # 4. Clean the documentation
 clean:
 	@$(SPHINXBUILD) -M clean "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O);
-	cd $(BUILDDIR); git worktree add -f html gh-pages; cd html; rm -rf *
